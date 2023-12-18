@@ -31,6 +31,7 @@
             class="image-about"
             src="img/photo_2023-11-23_19-49-08.jpg"
             alt="picture"
+            onclick="showMessage()"
           >
         <div class="pic">
           <div  class="about">
@@ -69,129 +70,136 @@
     </section>
     
     <div class="background">
-    <div class="story">
-      <div class="row">
-        <div class="box">
-          <h2 class="headings">Education</h2>
-          <p>
-            I start to learn when i was 3 years old , and i get in Kg school and
-            after 3 year i got in primery school. and i learnt their until i
-            finish gread 8,after that i got in woldiya secondary school and i
-            learnt gread 9 and 10 , wheh i was 10 there was matric and i scored
-            strait A , and i got in woldiya priparatory school and i learn 11 &
-            12, and after i finished i joined Addis Ababa university and know i
-            am a 3rd year software engineering student.
-          </p>
+      <div class="story">
+        <div class="row">
+          <div class="box">
+            <h2 class="headings">Education</h2>
+            <p id="education">
+              I start to learn when i was 3 years old , and i get in Kg school and
+              after 3 year i got in primery school. and i learnt their until i
+              finish gread 8,after that i got in woldiya secondary school and i
+              learnt gread 9 and 10 , wheh i was 10 there was matric and i scored
+              strait A , and i got in woldiya priparatory school and i learn 11 &
+              12, and after i finished i joined Addis Ababa university and know i
+              am a 3rd year software engineering student.
+            </p>
+            <button onclick="showMore('education')">Show more</button>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="story">
-      <div class="row">
-        <div class="box">
-          <h2 class="headings">Hobbies</h2>
-          <p>
-            I dream of living a happy and fulfilling life, with a balance
-            between work and leisure, and a harmony between body and mind. I
-            dream of traveling to different places, exploring new cultures, and
-            meeting new people. I dream of having a loving and supportive
-            family, and a loyal and caring circle of friends.And Software
-            learning is one of my passions, and I have many dreams related to
-            it. I dream of becoming a proficient and creative software engineer,
-            who can design and develop innovative and useful applications for
-            various domains and platforms.
-          </p>
+      <div class="story">
+        <div class="row">
+          <div class="box">
+            <h2 class="headings">Hobbies</h2>
+            <p id="hobbies">
+              I dream of living a happy and fulfilling life, with a balance
+              between work and leisure, and a harmony between body and mind. I
+              dream of traveling to different places, exploring new cultures, and
+              meeting new people. I dream of having a loving and supportive
+              family, and a loyal and caring circle of friends.And Software
+              learning is one of my passions, and I have many dreams related to
+              it. I dream of becoming a proficient and creative software engineer,
+              who can design and develop innovative and useful applications for
+              various domains and platforms.
+            </p>
+            <button onclick="showMore('hobbies')">Show more</button>
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class="story">
-      <div class="row">
-        <div class="box">
-          <h2 class="headings">Skills</h2>
-          <ul>
-            <li>
-              <strong>hard skill</strong>
-              <p>
-                my hard skill is I know three programing languges python, java
-                and javscripit, and i am good at data structure and web
-                develpoment and i konw some frame work just like for front end,
-                reactand bootstrap for frond end node.js and django frame
-                worksand i made 3 good projectand so on.
-              </p>
-            </li>
-            <li>
-              <strong>soft skill</strong>
-              <p>
-                My soft skill is that I have learned networking and I have
-                developed some networking skills. For example, I know about
-                cables and I know what kind of cable is used for internet or
-                something. I also have a certificate on That, which you can see
-                in my resume.
-              </p>
-            </li>
-          </ul>
+  
+      <div class="story">
+        <div class="row">
+          <div class="box">
+            <h2 class="headings">Skills</h2>
+            <ul>
+              <li>
+                <strong>hard skill</strong>
+                <p id="hard-skill">
+                  my hard skill is I know three programing languges python, java
+                  and javscripit, and i am good at data structure and web
+                  develpoment and i konw some frame work just like for front end,
+                  reactand bootstrap for frond end node.js and django frame
+                  worksand i made 3 good projectand so on.
+                </p>
+                <button onclick="showMore('hard-skill')">Show more</button>
+              </li>
+              <li>
+                <strong>soft skill</strong>
+                <p id="soft-skill">
+                  My soft skill is that I have learned networking and I have
+                  developed some networking skills. For example, I know about
+                  cables and I know what kind of cable is used for internet or
+                  something. I also have a certificate on That, which you can see
+                  in my resume.
+                </p>
+                <button onclick="showMore('soft-skill')">Show more</button>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    
-    <div class="story">
-      <div class="row">
-        <div class="box">
-          <h2 class="headings">Experience</h2>
-          <p>
-            in <strong>Life</strong> i have lot of Experience just like
-            <em>Communication</em> and <em> argumentation</em> are two important
-            skills that I have learned from my life experiences. and that gave
-            me the ability to express myself clearly, listen actively, and adapt
-            to different situations and audiences. Argumentation gave me the
-            ability to present and defend one's opinions, beliefs, or claims
-            using logic, evidence, and reasoning.they help me to interact with
-            others, learn from different perspectives, and solve problems
-            effectively. I have acquired and improved these skills through
-            various activities, such as participating in debates, joining clubs,
-            volunteering, and working in teams. I am always eager to apply and
-            enhance these skills in new challenges and opportunities.
-          </p>
+      
+      <div class="story">
+        <div class="row">
+          <div class="box">
+            <h2 class="headings">Experience</h2>
+            <p id="experience">
+              in <strong>Life</strong> i have lot of Experience just like
+              <em>Communication</em> and <em> argumentation</em> are two important
+              skills that I have learned from my life experiences. and that gave
+              me the ability to express myself clearly, listen actively, and adapt
+              to different situations and audiences. Argumentation gave me the
+              ability to present and defend one's opinions, beliefs, or claims
+              using logic, evidence, and reasoning.they help me to interact with
+              others, learn from different perspectives, and solve problems
+              effectively. I have acquired and improved these skills through
+              various activities, such as participating in debates, joining clubs,
+              volunteering, and working in teams. I am always eager to apply and
+              enhance these skills in new challenges and opportunities.
+            </p>
+            <button onclick="showMore('experience')">Show more</button>
+          </div>
         </div>
       </div>
-    </div>
-    </div>
+      </div>
+      
      
 
-    <section class="footer">
-      <div class="footer container">
-        <div class="brand">
-          <h3><span>B</span>iniyam <span>A</span>ssefa</h3>
-        </div>
-        <div class="social-icon">
-          <div class="social-item">
-            <a href="Biniyam_Assefa"
-              ><img
-                src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"
-                alt="facebook"
+      <section class="footer">
+        <div class="footer container">
+          <div class="brand">
+            <h3><span>B</span>iniyam <span>A</span>ssefa</h3>
+          </div>
+          <div class="social-icon">
+            <div class="social-item">
+              <a href="Biniyam_Assefa"
+                ><img
+                  src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"
+                  alt="facebook"
+                >
+                facebook</a
               >
-              facebook</a
-            >
+            </div>
+            <div class="social-item">
+              <a href="binyamasseafa648"
+                ><img
+                  src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"
+                  alt="instagram"
+                >instagram</a
+              >
+            </div>
+            <div class="social-item">
+              <a href="https://t.me/Binimerci777"
+                ><img
+                  src="https://img.icons8.com/?size=80&id=112159&format=png"
+                  alt="telegram"
+                >telegram</a
+              >
+            </div>
           </div>
-          <div class="social-item">
-            <a href="binyamasseafa648"
-              ><img
-                src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"
-                alt="instagram"
-              >instagram</a
-            >
-          </div>
-          <div class="social-item">
-            <a href="https://t.me/Binimerci777"
-              ><img
-                src="https://img.icons8.com/?size=80&id=112159&format=png"
-                alt="telegram"
-              >telegram</a
-            >
-          </div>
+          <p id="copy">Copyright © 2023 Biniyam. All rights reserved</p>
         </div>
-        <p>Copyright © 2023 Biniyam. All rights reserved</p>
-      </div>
-    </section>
+      </section>      
+    <script src="/src/javaScript/index.js"></script>
   </body>
 </html>
